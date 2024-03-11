@@ -22,7 +22,7 @@ const Todo = () => {
   return (
     <>
         <div className="todo-container">
-            <div className="header">Todo App</div>
+            <div className="header">Todo Apps</div>
             <div className="add-task">
               <AddTask addTask={addTask}/>
               </div>
