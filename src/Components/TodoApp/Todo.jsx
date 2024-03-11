@@ -22,15 +22,16 @@ const Todo = () => {
   return (
     <>
         <div className="todo-container">
-            <div className="header">Todo Apps</div>
+            <div className="header">TODO APP</div>
             <div className="add-task">
-              <AddTask addTask={addTask}/>
+              <AddTask addTask={addTask}/> 
               </div>
             <div className="tasks">
               {tasks.map((task, index) => (
                 <ListTask task={task} removeTask={removeTask} index={index}/>
               ))}
               </div>
+              <h1>testing</h1>
         </div>
     </>
   )
